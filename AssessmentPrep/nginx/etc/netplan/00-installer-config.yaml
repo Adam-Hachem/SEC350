@@ -1,0 +1,14 @@
+/etc/netplan/00-installer-config.yaml
+network:
+  renderer: networkd
+  version: 2
+  ethernets:
+    ens160:
+      addresses:
+        - 172.16.50.3/29
+      nameservers:
+        addresses:
+          - 172.16.50.2
+      routes:
+        - to: default
+          via: 172.16.50.2
