@@ -1,0 +1,13 @@
+network:
+  renderer: networkd
+  version: 2
+  ethernets:
+    ens160:
+      addresses:
+        - 172.16.150.99/24
+      nameservers:
+        addresses:
+          - 172.16.150.2
+      routes:
+        - to: default
+          via: 172.16.150.2
