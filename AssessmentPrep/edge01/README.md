@@ -1,5 +1,12 @@
 # EDGE01
 
+## Set adapters
+| INTERFACE | NETWORK | ADDRESS (later) |
+|-----------|---------|-----------------|
+| 1         | WAN     | 10.0.17.124/24  |
+| 2         | DMZ     | 172.16.50.2/29  |
+| 3         | LAN     | 172.16.150.2/24 |
+
 ### Make sure you are in configure mode
 
 ## Restore internet and SSH 
