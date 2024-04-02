@@ -1,5 +1,10 @@
 # TRAVELER
 
+## Set adapters
+| INTERFACE | NETWORK | ADDRESS         |
+|-----------|---------|-----------------|
+| 1         | WAN     | 10.0.17.24      |
+
 ## Named user account, network config, computer name
 ```bash
 net user /add adam [password]
