@@ -25,6 +25,6 @@ set system name-server '10.0.17.2'
 set service ssh listen-address '0.0.0.0'
 
 ```
-### Paste the rest from config file in this repo over SSH. VMWare clipboard size is limited.
+### Paste the rest from [config file in this repo](https://github.com/Adam-Hachem/SEC350/blob/main/AssessmentPrep/edge01/config) over SSH. VMWare clipboard size is limited.
 
 ### This should be all for setup
