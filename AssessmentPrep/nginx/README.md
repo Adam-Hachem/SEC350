@@ -7,7 +7,7 @@
 
 ## Set up internet and SSH
 `sudo nano /etc/netplan/00-intstaller-config.yaml`
-### Paste from matching file in this repo
+### Paste from [matching file in this repo](https://github.com/Adam-Hachem/SEC350/blob/main/AssessmentPrep/nginx/etc/netplan/00-installer-config.yaml)
 ```
 sudo netplan apply
 sudo hostname nginx01-adam
@@ -20,7 +20,7 @@ sudo passwd adam
 sudo apt update
 sudo apt install nginx
 ```
-### Modify the default page, paste from matching file in this repo
+### Modify the default page, paste from [matching file in this repo](https://github.com/Adam-Hachem/SEC350/blob/main/AssessmentPrep/nginx/var/www/html/index.nginx-debian.html)
 Verify with `curl localhost:80`
 ## Wazuh instructions
 In the Wazuh GUI, click the dropdown arrow next to the big logo. Navigate to `Agent > Deploy new agent`.
