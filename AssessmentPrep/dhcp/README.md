@@ -15,7 +15,7 @@ sudo useradd adam -m -G sudo -s /bin/bash
 sudo passwd adam
 ```
 ### Continue on mgmt01, use `ssh-copy-id` to move key, you may have to remove the old host key.
-## Nginx configuration
+## isc-dhcp-server configuration
 ```
 sudo apt update
 sudo apt install isc-dhcp-server
