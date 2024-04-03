@@ -10,7 +10,7 @@
 ### Paste from [matching file in this repo](https://github.com/Adam-Hachem/SEC350/blob/main/AssessmentPrep/dhcp/etc/netplan/00-installer-config.yaml)
 ```
 sudo netplan apply
-sudo hostname nginx01-adam
+sudo hostname dhcp01-adam
 sudo useradd adam -m -G sudo -s /bin/bash
 sudo passwd adam
 ```
